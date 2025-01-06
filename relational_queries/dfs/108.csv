@@ -1,0 +1,38 @@
+Body
+"<p>Last year, I read a blog post from <a href=""http://anyall.org/"">Brendan O'Connor</a> entitled <a href=""http://anyall.org/blog/2008/12/statistics-vs-machine-learning-fight/"">""Statistics vs. Machine Learning, fight!""</a> that discussed some of the differences between the two fields.  <a href=""http://andrewgelman.com/2008/12/machine_learnin/"">Andrew Gelman responded favorably to this</a>:</p>
+
+<p>Simon Blomberg: </p>
+
+<blockquote>
+  <p>From R's fortunes
+  package: To paraphrase provocatively,
+  'machine learning is statistics minus
+  any checking of models and
+  assumptions'.
+  -- Brian D. Ripley (about the difference between machine learning
+  and statistics) useR! 2004, Vienna
+  (May 2004) :-) Season's Greetings!</p>
+</blockquote>
+
+<p>Andrew Gelman:</p>
+
+<blockquote>
+  <p>In that case, maybe we should get rid
+  of checking of models and assumptions
+  more often. Then maybe we'd be able to
+  solve some of the problems that the
+  machine learning people can solve but
+  we can't!</p>
+</blockquote>
+
+<p>There was also the <a href=""http://projecteuclid.org/euclid.ss/1009213726""><strong>""Statistical Modeling: The Two Cultures""</strong> paper</a> by Leo Breiman in 2001 which argued that statisticians rely too heavily on data modeling, and that machine learning techniques are making progress by instead relying on the <em>predictive accuracy</em> of models.</p>
+
+<p>Has the statistics field changed over the last decade in response to these critiques?  Do the <em>two cultures</em> still exist or has statistics grown to embrace machine learning techniques such as neural networks and support vector machines?</p>
+"
+"<p>Is there a standard and accepted method for selecting the number of layers, and the number of nodes in each layer, in a FF NN? I'm interested in automated ways of building neural networks.</p>
+"
+"<p>What should be the ratio of number of observations and number of variables?
+How to detect overfitting in the neural network model and what are the ways to avoid overfitting?
+If I want to perform classification with Neural Network, should the classes  have equal frequency?
+Please help me out.</p>
+"

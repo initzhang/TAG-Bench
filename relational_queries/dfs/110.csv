@@ -1,0 +1,6 @@
+Text
+yup i have thanks to all that helped me!!
+well yes mainly from literature and other works on wind for the purpose of wind farms
+i tried ploting it with out zero's but still there is a lag
+"well untill 4 m/s there is no wind generation and the max is 15 m/s, wind stronger than 15 m/s will make the same amount of energy"
+"i thought of integrating seperetly until 4 m/s, between 4 and 15m/s and over 15m/s, and comparing it to a situation of 100% of the time a turbine working in optimal speed"

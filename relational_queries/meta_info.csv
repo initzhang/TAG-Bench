@@ -1,0 +1,45 @@
+bird_id,rel_type,rel_template,rel_counts
+0,filter,{cname} is a county in the Bay Area,173
+1,filter,{cname} is a county name in Southern California,2269
+3,map,What is the population of {County} in California? Answer with only the number without commas. Respond with your best guess.,58
+4,filter,{City} is a city in the Silicon Valley region,1166
+5,filter,{AdmFName1} is a female first name,20
+6,filter,{Body} mentions academic papers,12
+8,filter,{Text} is about statistics,5
+10,filter,{Body} discusses the R programming language,6
+11,filter,{country} is in the Middle East,72
+13,filter,{nationality} is Asian,840
+18,filter,Someone born on {birthday} would be an Aquarius,12
+19,filter,{name} is landlocked,11
+20,filter,{name} has French as an official language,11
+21,topk,What {team_long_name} has the most fans?,3
+24,topk,What {Currency} is the highest value currency?,1
+29,map,"Given {Area}, return the 3 letter currency code for the area. Answer with the code ONLY.",2
+36,filter,{country} is where the Bundesliga happens,23
+37,map,"Given {Name}, provide the height in cm. Answer with ONLY the number to one decimal place.",1
+38,map,What year did driver {forename} {surname} debut in Formula 1? Answer with the year ONLY.,840
+48,topk,"What circuit, named {name} is located closer to a capital city?",3
+49,filter,The {position} is in the top half of number racers in a formula 1 race.,18
+50,topk,What {School} sounds most futuristic?,3
+51,topk,What {Title} is most technical?,10
+52,filter,The sentiment on {Text} is that of someone being grateful.,14
+53,topk,What {Text} is most sarcastic?,21
+54,topk,{TagName} is the least related to statistics?,45
+55,topk,What {Body} is most lighthearted?,45
+56,topk,What {Body} is made with the least expertise?,10
+57,topk,What {Name} is most creative?,903
+58,topk,What {Body} is most pessimistic?,630
+59,topk,What {player_name} is most unique sounding?,45
+60,topk,What {DisplayName} seems most based off a real name?,10
+61,topk,What {City} is the safest place to live?,861
+62,topk,What {City} is the most diverse?,10
+63,topk,What {City} is the most affordable?,3
+64,topk,What {County} has the strongest academic reputation?,3
+65,topk,What {City}/location in California is the most popular to visit?,45
+107,topk,What {Text} is most helpful?,3
+108,map,{Body} is relevant to machine learning. Answer with YES if it is and NO if it is not.,3
+109,map,Extract the statistical term from {Title}. Respond with only the statistical term.,4
+110,filter,The sentiment of {Text} is positive,5
+111,map,Determine whether the content in {Body} is true. Respond with only TRUE or FALSE.,1
+952,topk,What {name} is most prestigious?,10
+1000,topk,What {location} is closest to the equator?,10

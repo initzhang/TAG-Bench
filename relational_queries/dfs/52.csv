@@ -1,0 +1,18 @@
+Text
+"You and Bogdanovist are in disagreement when you say `picking ""the best"" of the surrogate models is a data-driven optimization, you'd need to validate (measure performance) this picked model with new unknown data. The test set within this cross validation is not independent as it was used to select the surrogate model.` and he says `But once we have used cross-validation to select the better performing model, we train that model (whether it be the linear regression or the neural network) on all the data.` This is quite common and it is crucial that a standardised approach is specified"
+Especially for small datasets where maybe leaving out data from CV is just not feasible but the risks of overfitting your model are also high! References are needed to clarify this issue.
+"If you could remove the lines, and perform something like ifft2(fft2(a).*fft2(a)) then you might find a subset of the field is translated.  It would create a second, lower, peak in the 2d cross-correlation plot of the images.  It looks like the translation is about 1.5-2.0 grid spacings."
+"There are papers by Ewout Steyerberg on this topic.  In my experience for a binary outcome you need more than 15,000 subjects for split-sample validation to work satisfactorily. The bootstrap and cv work well for any size dataset, and you don't also need an independent sample when you use them unless you think the data collection process or the type of observation has changed.  If the datasets are really large the confidence interval for the accuracy score computed in the independent sample is narrow enough to make the point estimate trustworthy."
+Thank you very much for your time and help.
+"If I use the second model, I won't get the get a coefficient estimate for the effect of each school (which is what I want). Also, doesn't the first model also have student random-effect (which accounts for year-to-year correlation for students)?"
+"Ok, if you want to estimate the school effects then you can either put the school dummies in as fixed effects, or if put school as a random effect you can predict the school level random effects (see the help for predict after xtmixed). Having a student level random-effect accounts for correlation between measurements from the same student, but in a fairly simple way which ignores the timing of the measurement. The model I suggested in my last comment uses the timing of the measurement to let the correlation between residuals differ between measurements at different times."
+Thanks Jonathan. I really appreciate it.
+"One final question - why can't I use: xtmixed studentscore lagstudentscore limitedEng poor gradeyeardum'schoolyeardum' || studentid:, nocons resid(unstructured, t(year)) ? - this should yield school fixed effects and also solve the problem of autocorrelation right?"
+"Yes, that sounds fine to me."
+"In fact, odds of 1-1 are said to be _even_, aren't they?"
+"@DilipSarwate indeed, in that case, the odds are even."
+"Do you want to *forecast* the value for a specific video, or just be able to say 'the videos on this channel average X views in their 1st 30 days'?"
+"@gung goal would be to say ""Videos on this channel can expect to hit X by 30 day mark.""  
+I can figure out how to make the number conservative (math may be just as simple as slicing off 33% of the average we come up with)
+
+Forecasting value after that (money/pricing) becomes arithmetic and a lot more simple."

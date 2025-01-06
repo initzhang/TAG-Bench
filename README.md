@@ -1,3 +1,8 @@
+Extract relational queries from the TAG benchmark
+script: `tag/gen_rel.py`
+data: `relational_queries/`
+
+=====
 # Text2SQL is Not Enough: Unifying AI and Databases with TAG
 <!--- BADGES: START --->
 [![Arxiv](https://img.shields.io/badge/arXiv-2408.14717-B31B1B.svg)][#arxiv-paper-package]

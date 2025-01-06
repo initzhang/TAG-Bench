@@ -1,0 +1,110 @@
+Body
+"<p>A <a href=""http://en.wikipedia.org/wiki/Beta_distribution"">Beta distribution</a> is used to model things that have a limited range, like 0 to 1.</p>
+
+<p>Examples are the probability of success in an experiment having only two outcomes, like success and failure. If you do a limited number of experiments, and some are successful, you can represent what that tells you by a beta distribution.</p>
+
+<p>Another example is <a href=""http://en.wikipedia.org/wiki/Order_statistic"">order statistics</a>. For example, if you generate several (say 4) uniform 0,1 random numbers, and sort them, what is the distribution of the 3rd one?</p>
+
+<p>I use them to understand software performance diagnosis by sampling. If you stop a program at random $n$ times, and $s$ of those times you see it doing something you could actually get rid of, and $s&gt;1$, then the fraction of time to be saved by doing so is represented by $Beta(s+1, (n-s)+1)$, and the speedup factor has a <a href=""http://en.wikipedia.org/wiki/Beta_prime_distribution"">BetaPrime</a> distribution.</p>
+
+<p><a href=""http://scicomp.stackexchange.com/a/2719/1262""><em>More about that...</em></a></p>
+"
+"<p>I will try and respond to the gentle urging of whuber to simply “respond to the question” and stay on topic. We are given 144 monthly readings of a series called “The Airline Series” . Box and Jenkins were widely criticized for providing a forecast that was wildly on the high side due to the “explosive nature” of a reverse logged transformation. <img src=""http://i.stack.imgur.com/S8hrL.jpg"" alt=""enter image description here""></p>
+
+<p>Visually we get the impression that the variance of the original series increases with the level of the series suggesting a need for a transformation.  However we know that one the requirements for a useful  model is that the variance of the “model errors” needs to be homogenous. No assumptions are necessary about  the variance of the original series. They are identical if the model is simply a constant i.e. y(t)=u . As <a href=""http://stats.stackexchange.com/users/2392/probabilityislogic"">http://stats.stackexchange.com/users/2392/probabilityislogic</a> stated so clearly in his response to   <a href=""http://stats.stackexchange.com/questions/8955/advice-on-explaining-heterogeneity-heteroscedasticty"">Advice on explaining heterogeneity/ heteroscedasticty</a>  “one thing which I always find amusing is this ""non-normality of the data"" that people worry about. The data does not need to be normally distributed, but the error term does”</p>
+
+<p>Early work in time series often erroneously jumped to conclusions about unwarranted transformations. We will discover here that the remedial transformation for this data is to simply add three indicator dummy series to the ARIMA model reflecting an adjustment for three unusual data points. 
+Following is the plot of the autocorrelation function suggesting a strong  autocorrelation at lag 12 (.76) and at lag 1 (.948). Autocorrelations are simply regression coefficients in a model where y is the dependent variable being predicted by a lag of y.</p>
+
+<p><img src=""http://i.stack.imgur.com/IrN2D.jpg"" alt=""enter image description here"">! <img src=""http://i.stack.imgur.com/sz3PB.jpg"" alt=""enter image description here""></p>
+
+<p>The analysis above suggests that one model the first differences of the series and study that “residual series”  which is identical to the first differences  first for it’s properties.
+<img src=""http://i.stack.imgur.com/4L07U.jpg"" alt=""enter image description here""></p>
+
+<p>This analysis reconfirms the idea that a strong seasonal pattern exists in the data that could be remedied or modeled by a model that contained two differencing operators .</p>
+
+<p><img src=""http://i.stack.imgur.com/TFse2.jpg"" alt=""enter image description here"">
+<img src=""http://i.stack.imgur.com/E1s8T.jpg"" alt=""enter image description here""></p>
+
+<p>This simple double differencing  yields a set of residual a.k.a an adjusted series  or loosely speaking a transformed series that evidences non-constant variance but the reason for the non-constant variance is the non-constant mean of the residuals.Here is a plot of the doubly differenced series , suggesting three anomalies at the end of the series. The Autocorrelation of this series falsely indicates that “all is well” and there might be a need for any Ma(1) adjustment.  Care should be taken as there is a suggestion of anomalies in the data thus the acf is biased downwards. This is known as the “Alice in Wonderland Effect”  i.e. accepting the null hypothesis of no evidented structure when that structure is being masked by a violation of one of the assumptions.</p>
+
+<p><img src=""http://i.stack.imgur.com/DFIro.jpg"" alt=""enter image description here"">
+<img src=""http://i.stack.imgur.com/30Tbp.jpg"" alt=""enter image description here""></p>
+
+<p>We visually detect three unusual points ( 117,135,136)</p>
+
+<p><img src=""http://i.stack.imgur.com/kGZXe.jpg"" alt=""enter image description here""></p>
+
+<p>This step of detecting the outliers is called Intervention Detection and can be easily , or not so easily, programmed following the following the work of Tsay.</p>
+
+<p><img src=""http://i.stack.imgur.com/0ON8N.jpg"" alt=""enter image description here""><img src=""http://i.stack.imgur.com/6EQck.jpg"" alt=""enter image description here""></p>
+
+<p>If we add three indicators to the model, we get 
+<img src=""http://i.stack.imgur.com/qKwHK.jpg"" alt=""enter image description here""></p>
+
+<p>We can then estimate </p>
+
+<p><img src=""http://i.stack.imgur.com/keOHB.jpg"" alt=""enter image description here""></p>
+
+<p>And receive a plot of the residuals and the acf </p>
+
+<p><img src=""http://i.stack.imgur.com/lEdHy.jpg"" alt=""enter image description here""></p>
+
+<p><img src=""http://i.stack.imgur.com/vaCmR.jpg"" alt=""enter image description here""></p>
+
+<p>This acf suggests that we add potentially two moving average coefficients to the model . Thus the next estimated model might be.</p>
+
+<p><img src=""http://i.stack.imgur.com/5mEC7.jpg"" alt=""enter image description here""></p>
+
+<p>Yielding</p>
+
+<p><img src=""http://i.stack.imgur.com/A5tDw.jpg"" alt=""enter image description here""></p>
+
+<p><img src=""http://i.stack.imgur.com/YCBes.jpg"" alt=""enter image description here""></p>
+
+<p><img src=""http://i.stack.imgur.com/GB70k.jpg"" alt=""enter image description here"">
+ <img src=""http://i.stack.imgur.com/7RT3E.jpg"" alt=""enter image description here"">
+<img src=""http://i.stack.imgur.com/Qt7X3.jpg"" alt=""enter image description here"">
+One could then delete the non-significant constant and get a refined model :
+<img src=""http://i.stack.imgur.com/u0hrp.jpg"" alt=""enter image description here""></p>
+
+<p>We note that no power transformations were needed whatsoever to obtain a set of residuals that constant variance.  Note that the forecasts are non-explosive.</p>
+
+<p><img src=""http://i.stack.imgur.com/xvO67.jpg"" alt=""enter image description here""></p>
+
+<p><img src=""http://i.stack.imgur.com/0tKpt.jpg"" alt=""enter image description here""></p>
+
+<p>In terms of a simple weighted sum , we have: 13 weights ; 3 non-zero and equal to (1.0.1,0.,-1.0)</p>
+
+<p><img src=""http://i.stack.imgur.com/rMynA.jpg"" alt=""enter image description here""></p>
+
+<p><img src=""http://i.stack.imgur.com/LFLMO.jpg"" alt=""enter image description here""></p>
+
+<p>This material was presented in a way that was non-automatic and consequentially required  user interaction in terms of making modeling decisions.  </p>
+"
+"<p>If you assume a model form that is non-linear but can be transformed to a linear model such as $\\log Y = \\beta_0 + \\beta_1t$ then one would be justified in taking logarithms of $Y$ to meet the specified model form. In general whether or not you have causal series , the only time you would be justified or correct in taking the Log of $Y$ is when it can be proven that the Variance of $Y$ is proportional to the Expected Value of $Y^2$ . I don't remember the original source for the following but it nicely summarizes the role of power transformations.</p>
+
+<p><img src=""http://i.stack.imgur.com/gd7k9.jpg"" alt=""""></p>
+
+<p>The optimal power transformation is found via the <a href=""http://itl.nist.gov/div898/handbook/eda/section3/eda336.htm"" rel=""nofollow"">Box-Cox Test</a>  where </p>
+
+<ul>
+<li>-1. is a reciprocal </li>
+<li>-.5 is a recriprocal square root </li>
+<li>0.0 is a log transformation  </li>
+<li>.5 is a square toot transform and </li>
+<li>1.0 is no transform.</li>
+</ul>
+
+<p>Note that when you have no predictor/causal/supporting input series the model is $Y_t=u +a_t$ and that there are no requirements made about the distribution of $Y$ BUT are made about $a_t$, the error process. In this case the distributional requirements about $a_t$ pass directly on to $Y_t$. When you have supporting series such as in a regression or in a Autoregressive–moving-average model with exogenous inputs model (<a href=""http://en.wikipedia.org/wiki/ARMAX#Autoregressive_moving_average_model_with_exogenous_inputs_model_.28ARMAX_model.29"" rel=""nofollow"">ARMAX model</a>) the distributional assumptions are all about $a_t$ and have nothing whatsoever to do with the distribution of $Y_t$. Thus in the case of ARIMA model or an ARMAX Model one would never assume any transformation on $Y$ before finding the optimal Box-Cox transformation which would then suggest the remedy (transformation) for $Y$. In earlier times some analysts would transform both $Y$ and $X$ in a presumptive way just to be able to reflect upon the percent change in $Y$ as a result in the percent change in $X$ by examining the regression coefficient between $\\log Y$ and $\\log X$. In summary transformations are like drugs some are good and some are bad for you! They should only be used when necessary and then with caution.</p>
+"
+"<p>I want to learn how Gibbs Sampling works and I am looking for a good basic to intermediate paper. I have a computer science background and basic statistic knowledge. </p>
+
+<p>Anyone has read good material around? where did you learn it?</p>
+
+<p>Thanks</p>
+"
+"<p>I have tried several times to ""go it on my own"" - but with limited success.  I am a casual SPSS user and some SAS experience.</p>
+
+<p>Would appreciate a pointer or two from someone who has similar background and now uses R.</p>
+"

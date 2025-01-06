@@ -1,0 +1,5 @@
+Text
+"I think you'll get more useful help if you take a few steps back, and ask us what scientific question  you are trying to answer. Why are you looking for the smallest normalized SD?"
+"No one will be able to answer this without more detail. If you show the calculation that leads to the answer of 35%, we'll will be able to help you understand what that means."
+"1. You might want to change ""STD"" to ""SD"" which is more standard and STD had another meaning (to medical people, STD means sexually transmitted disease).
+2. Your final equation isn't quite right. The multiplier is not 1.96 but rather is a constant from the t distribution. With large n, it is 1.96 but with smaller n that multiplier is larger."

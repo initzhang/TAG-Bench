@@ -1,0 +1,75 @@
+Body
+"<p>After taking a statistics course and then trying to help fellow students, I noticed one subject that inspires much head-desk banging is interpreting the results of statistical hypothesis tests.  It seems that students easily learn how to perform the calculations required by a given test but get hung up on interpreting the results.  Many computerized tools report test results in terms of ""p values"" or ""t values"".</p>
+
+<p>How would you explain the following points to college students taking their first course in statistics:</p>
+
+<ul>
+<li><p>What does a ""p-value"" mean in relation to the hypothesis being tested?  Are there cases when one should be looking for a high p-value or a low p-value?</p></li>
+<li><p>What is the relationship between a p-value and a t-value?</p></li>
+</ul>
+"
+"<p>After reading a dataset:</p>
+
+<pre><code>dataset &lt;- read.csv(""forR.csv"")
+</code></pre>
+
+<ul>
+<li>How can I get R to give me the number of cases it contains?</li>
+<li>Also, will the returned value include of exclude cases omitted with <code>na.omit(dataset)</code>?</li>
+</ul>
+"
+"<p>How do I know when to choose between Spearman's $\\rho$ and Pearson's $r$? My variable includes satisfaction and the scores were interpreted using the sum of the scores. However, these scores could also be ranked. </p>
+"
+"<p>I have R data frame like this:</p>
+
+<pre><code>        age group
+1   23.0883     1
+2   25.8344     1
+3   29.4648     1
+4   32.7858     2
+5   33.6372     1
+6   34.9350     1
+7   35.2115     2
+8   35.2115     2
+9   35.2115     2
+10  36.7803     1
+...
+</code></pre>
+
+<p>I need to get data frame in the following form:</p>
+
+<pre><code>group mean     sd
+1     34.5     5.6
+2     32.3     4.2
+...
+</code></pre>
+
+<p>Group number may vary, but their names and quantity could be obtained by calling <code>levels(factor(data$group))</code></p>
+
+<p><strong>What manipulations should be done with the data to get the result?</strong></p>
+"
+"<p>I am new to statistics and I currently deal with ANOVA. I carry out an ANOVA test in R using</p>
+
+<pre><code>aov(dependendVar ~ IndependendVar)
+</code></pre>
+
+<p>I get – among others – an F-value and a p-value. </p>
+
+<p>My null hypothesis ($H_0$) is that all group means are equal. </p>
+
+<p>There is a lot of information available on <a href=""http://onlinestatbook.com/2/analysis_of_variance/one-way.html"">how F is calculated</a>, but I don't know how to read an F-statistic and how F and p are connected. </p>
+
+<p>So, my questions are:</p>
+
+<ol>
+<li>How do I determine the critical F-value for rejecting $H_0$?</li>
+<li>Does each F have a corresponding p-value, so they both mean basically the same? (e.g., if $p&lt;0.05$, then $H_0$ is rejected) </li>
+</ol>
+"
+"<p>I have data that has eta squared values and partial eta squared values calculated as a measure of effect size for group mean differences.</p>
+
+<ul>
+<li><p>What is the difference between eta squared and partial eta squared? Can they both be interpreted using the same Cohen's guidelines (1988 I think: 0.01 = small, 0.06 = medium, 0.13 = large)?</p></li>
+<li><p>Also, is there use in reporting effect size if the comparison test (ie t-test or one-way ANOVA) is non-significant? In my head, this is like saying ""the mean difference did not reach statistical significance but is still of particular note because the effect size indicated from the eta squared is medium"". Or, is effect size a replacement value for significance testing, rather than complementary? </p></li>
+</ul>
+"
