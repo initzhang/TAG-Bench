@@ -1,0 +1,31 @@
+system,user
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City} is the most affordable?
+
+Document 1:
+ {'City': 'Piedmont'}
+Document 2:
+ {'City': 'Danville'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City} is the most affordable?
+
+Document 1:
+ {'City': 'Piedmont'}
+Document 2:
+ {'City': 'Rolling Hills'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City} is the most affordable?
+
+Document 1:
+ {'City': 'Danville'}
+Document 2:
+ {'City': 'Rolling Hills'}"

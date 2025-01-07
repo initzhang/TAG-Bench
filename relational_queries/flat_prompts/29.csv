@@ -1,0 +1,5 @@
+system,user
+"The user will provide an instruction and some relevant context.
+Your job is to answer the user's instruction given the context.","Given Czech Republic, return the 3 letter currency code for the area. Answer with the code ONLY."
+"The user will provide an instruction and some relevant context.
+Your job is to answer the user's instruction given the context.","Given European Union, return the 3 letter currency code for the area. Answer with the code ONLY."

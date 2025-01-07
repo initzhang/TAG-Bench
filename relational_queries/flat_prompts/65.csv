@@ -1,0 +1,451 @@
+system,user
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Coulterville'}
+Document 2:
+ {'City': 'Shaver Lake'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Coulterville'}
+Document 2:
+ {'City': 'Pinecrest'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Coulterville'}
+Document 2:
+ {'City': 'Emigrant Gap'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Coulterville'}
+Document 2:
+ {'City': 'Hyampom'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Coulterville'}
+Document 2:
+ {'City': 'Woody'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Coulterville'}
+Document 2:
+ {'City': 'Wawona'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Coulterville'}
+Document 2:
+ {'City': 'Big Bar'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Coulterville'}
+Document 2:
+ {'City': 'Washington'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Coulterville'}
+Document 2:
+ {'City': 'Death Valley'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Shaver Lake'}
+Document 2:
+ {'City': 'Pinecrest'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Shaver Lake'}
+Document 2:
+ {'City': 'Emigrant Gap'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Shaver Lake'}
+Document 2:
+ {'City': 'Hyampom'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Shaver Lake'}
+Document 2:
+ {'City': 'Woody'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Shaver Lake'}
+Document 2:
+ {'City': 'Wawona'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Shaver Lake'}
+Document 2:
+ {'City': 'Big Bar'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Shaver Lake'}
+Document 2:
+ {'City': 'Washington'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Shaver Lake'}
+Document 2:
+ {'City': 'Death Valley'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Pinecrest'}
+Document 2:
+ {'City': 'Emigrant Gap'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Pinecrest'}
+Document 2:
+ {'City': 'Hyampom'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Pinecrest'}
+Document 2:
+ {'City': 'Woody'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Pinecrest'}
+Document 2:
+ {'City': 'Wawona'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Pinecrest'}
+Document 2:
+ {'City': 'Big Bar'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Pinecrest'}
+Document 2:
+ {'City': 'Washington'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Pinecrest'}
+Document 2:
+ {'City': 'Death Valley'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Emigrant Gap'}
+Document 2:
+ {'City': 'Hyampom'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Emigrant Gap'}
+Document 2:
+ {'City': 'Woody'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Emigrant Gap'}
+Document 2:
+ {'City': 'Wawona'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Emigrant Gap'}
+Document 2:
+ {'City': 'Big Bar'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Emigrant Gap'}
+Document 2:
+ {'City': 'Washington'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Emigrant Gap'}
+Document 2:
+ {'City': 'Death Valley'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Hyampom'}
+Document 2:
+ {'City': 'Woody'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Hyampom'}
+Document 2:
+ {'City': 'Wawona'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Hyampom'}
+Document 2:
+ {'City': 'Big Bar'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Hyampom'}
+Document 2:
+ {'City': 'Washington'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Hyampom'}
+Document 2:
+ {'City': 'Death Valley'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Woody'}
+Document 2:
+ {'City': 'Wawona'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Woody'}
+Document 2:
+ {'City': 'Big Bar'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Woody'}
+Document 2:
+ {'City': 'Washington'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Woody'}
+Document 2:
+ {'City': 'Death Valley'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Wawona'}
+Document 2:
+ {'City': 'Big Bar'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Wawona'}
+Document 2:
+ {'City': 'Washington'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Wawona'}
+Document 2:
+ {'City': 'Death Valley'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Big Bar'}
+Document 2:
+ {'City': 'Washington'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Big Bar'}
+Document 2:
+ {'City': 'Death Valley'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City}/location in California is the most popular to visit?
+
+Document 1:
+ {'City': 'Washington'}
+Document 2:
+ {'City': 'Death Valley'}"

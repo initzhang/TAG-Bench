@@ -1,0 +1,101 @@
+system,user
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City} is the most diverse?
+
+Document 1:
+ {'City': 'Temecula'}
+Document 2:
+ {'City': 'Carmichael'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City} is the most diverse?
+
+Document 1:
+ {'City': 'Temecula'}
+Document 2:
+ {'City': 'Paramount'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City} is the most diverse?
+
+Document 1:
+ {'City': 'Temecula'}
+Document 2:
+ {'City': 'Long Beach'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City} is the most diverse?
+
+Document 1:
+ {'City': 'Temecula'}
+Document 2:
+ {'City': 'Granada Hills'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City} is the most diverse?
+
+Document 1:
+ {'City': 'Carmichael'}
+Document 2:
+ {'City': 'Paramount'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City} is the most diverse?
+
+Document 1:
+ {'City': 'Carmichael'}
+Document 2:
+ {'City': 'Long Beach'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City} is the most diverse?
+
+Document 1:
+ {'City': 'Carmichael'}
+Document 2:
+ {'City': 'Granada Hills'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City} is the most diverse?
+
+Document 1:
+ {'City': 'Paramount'}
+Document 2:
+ {'City': 'Long Beach'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City} is the most diverse?
+
+Document 1:
+ {'City': 'Paramount'}
+Document 2:
+ {'City': 'Granada Hills'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {City} is the most diverse?
+
+Document 1:
+ {'City': 'Long Beach'}
+Document 2:
+ {'City': 'Granada Hills'}"

@@ -1,0 +1,3 @@
+system,user
+"The user will provide an instruction and some relevant context.
+Your job is to answer the user's instruction given the context.",Determine whether the content in Bayesian inference is a method of statistical inference which uses Bayes' theorem to find probability estimates of parameters or hypotheses. is true. Respond with only TRUE or FALSE.

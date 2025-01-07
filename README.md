@@ -1,6 +1,12 @@
-Extract relational queries from the TAG benchmark
-script: `tag/gen_rel.py`
-data: `relational_queries/`
+### Extract relational queries from the TAG benchmark
+
+dataframe script: `tag/gen_rel.py`
+
+dataframe data: `relational_queries/dfs/*`
+
+prompt script: `relational_queries/gen_prompt.py`
+
+prompt data: `relational_queries/flat_prompts/*`
 
 =====
 # Text2SQL is Not Enough: Unifying AI and Databases with TAG

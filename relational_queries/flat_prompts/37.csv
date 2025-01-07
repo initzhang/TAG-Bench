@@ -1,0 +1,3 @@
+system,user
+"The user will provide an instruction and some relevant context.
+Your job is to answer the user's instruction given the context.","Given Michael Jordan, provide the height in cm. Answer with ONLY the number to one decimal place."

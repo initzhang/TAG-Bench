@@ -1,0 +1,101 @@
+system,user
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {DisplayName} seems most based off a real name?
+
+Document 1:
+ {'DisplayName': 'Jeromy Anglim'}
+Document 2:
+ {'DisplayName': 'Glen_b'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {DisplayName} seems most based off a real name?
+
+Document 1:
+ {'DisplayName': 'Jeromy Anglim'}
+Document 2:
+ {'DisplayName': 'whuber'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {DisplayName} seems most based off a real name?
+
+Document 1:
+ {'DisplayName': 'Jeromy Anglim'}
+Document 2:
+ {'DisplayName': 'chl'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {DisplayName} seems most based off a real name?
+
+Document 1:
+ {'DisplayName': 'Jeromy Anglim'}
+Document 2:
+ {'DisplayName': 'gung'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {DisplayName} seems most based off a real name?
+
+Document 1:
+ {'DisplayName': 'Glen_b'}
+Document 2:
+ {'DisplayName': 'whuber'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {DisplayName} seems most based off a real name?
+
+Document 1:
+ {'DisplayName': 'Glen_b'}
+Document 2:
+ {'DisplayName': 'chl'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {DisplayName} seems most based off a real name?
+
+Document 1:
+ {'DisplayName': 'Glen_b'}
+Document 2:
+ {'DisplayName': 'gung'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {DisplayName} seems most based off a real name?
+
+Document 1:
+ {'DisplayName': 'whuber'}
+Document 2:
+ {'DisplayName': 'chl'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {DisplayName} seems most based off a real name?
+
+Document 1:
+ {'DisplayName': 'whuber'}
+Document 2:
+ {'DisplayName': 'gung'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {DisplayName} seems most based off a real name?
+
+Document 1:
+ {'DisplayName': 'chl'}
+Document 2:
+ {'DisplayName': 'gung'}"

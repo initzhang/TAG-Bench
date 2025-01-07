@@ -1,0 +1,211 @@
+system,user
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'http://xkcd.com/552/'}
+Document 2:
+ {'Text': 'should be community wiki'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'http://xkcd.com/552/'}
+Document 2:
+ {'Text': 'That pirates / global warming chart is clearly cooked up by conspiracy theorists - anyone can see they have deliberately plotted even spacing for unequal time periods to avoid showing the recent sharp increase in temperature as pirates are almost entirely wiped out.\nWe all know that as temperatures rise it makes the rum evaporate and pirates cannot survive those conditions.\n;-)'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'http://xkcd.com/552/'}
+Document 2:
+ {'Text': 'and also: http://xkcd.com/111/ (xkcd: Firefox and Witchcraft - The Connection?)'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'http://xkcd.com/552/'}
+Document 2:
+ {'Text': 'WTF is up with the x-axis on that pirate graph?'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'http://xkcd.com/552/'}
+Document 2:
+ {'Text': 'Or pretty much anything you put into [Google Correlate](http://www.google.com/trends/correlate), come to that.'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'http://xkcd.com/552/'}
+Document 2:
+ {'Text': 'Economists are trying their best to analyze causality. If you can identify causality for an important question, you can publish your paper in top journals.'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'should be community wiki'}
+Document 2:
+ {'Text': 'That pirates / global warming chart is clearly cooked up by conspiracy theorists - anyone can see they have deliberately plotted even spacing for unequal time periods to avoid showing the recent sharp increase in temperature as pirates are almost entirely wiped out.\nWe all know that as temperatures rise it makes the rum evaporate and pirates cannot survive those conditions.\n;-)'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'should be community wiki'}
+Document 2:
+ {'Text': 'and also: http://xkcd.com/111/ (xkcd: Firefox and Witchcraft - The Connection?)'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'should be community wiki'}
+Document 2:
+ {'Text': 'WTF is up with the x-axis on that pirate graph?'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'should be community wiki'}
+Document 2:
+ {'Text': 'Or pretty much anything you put into [Google Correlate](http://www.google.com/trends/correlate), come to that.'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'should be community wiki'}
+Document 2:
+ {'Text': 'Economists are trying their best to analyze causality. If you can identify causality for an important question, you can publish your paper in top journals.'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'That pirates / global warming chart is clearly cooked up by conspiracy theorists - anyone can see they have deliberately plotted even spacing for unequal time periods to avoid showing the recent sharp increase in temperature as pirates are almost entirely wiped out.\nWe all know that as temperatures rise it makes the rum evaporate and pirates cannot survive those conditions.\n;-)'}
+Document 2:
+ {'Text': 'and also: http://xkcd.com/111/ (xkcd: Firefox and Witchcraft - The Connection?)'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'That pirates / global warming chart is clearly cooked up by conspiracy theorists - anyone can see they have deliberately plotted even spacing for unequal time periods to avoid showing the recent sharp increase in temperature as pirates are almost entirely wiped out.\nWe all know that as temperatures rise it makes the rum evaporate and pirates cannot survive those conditions.\n;-)'}
+Document 2:
+ {'Text': 'WTF is up with the x-axis on that pirate graph?'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'That pirates / global warming chart is clearly cooked up by conspiracy theorists - anyone can see they have deliberately plotted even spacing for unequal time periods to avoid showing the recent sharp increase in temperature as pirates are almost entirely wiped out.\nWe all know that as temperatures rise it makes the rum evaporate and pirates cannot survive those conditions.\n;-)'}
+Document 2:
+ {'Text': 'Or pretty much anything you put into [Google Correlate](http://www.google.com/trends/correlate), come to that.'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'That pirates / global warming chart is clearly cooked up by conspiracy theorists - anyone can see they have deliberately plotted even spacing for unequal time periods to avoid showing the recent sharp increase in temperature as pirates are almost entirely wiped out.\nWe all know that as temperatures rise it makes the rum evaporate and pirates cannot survive those conditions.\n;-)'}
+Document 2:
+ {'Text': 'Economists are trying their best to analyze causality. If you can identify causality for an important question, you can publish your paper in top journals.'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'and also: http://xkcd.com/111/ (xkcd: Firefox and Witchcraft - The Connection?)'}
+Document 2:
+ {'Text': 'WTF is up with the x-axis on that pirate graph?'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'and also: http://xkcd.com/111/ (xkcd: Firefox and Witchcraft - The Connection?)'}
+Document 2:
+ {'Text': 'Or pretty much anything you put into [Google Correlate](http://www.google.com/trends/correlate), come to that.'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'and also: http://xkcd.com/111/ (xkcd: Firefox and Witchcraft - The Connection?)'}
+Document 2:
+ {'Text': 'Economists are trying their best to analyze causality. If you can identify causality for an important question, you can publish your paper in top journals.'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'WTF is up with the x-axis on that pirate graph?'}
+Document 2:
+ {'Text': 'Or pretty much anything you put into [Google Correlate](http://www.google.com/trends/correlate), come to that.'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'WTF is up with the x-axis on that pirate graph?'}
+Document 2:
+ {'Text': 'Economists are trying their best to analyze causality. If you can identify causality for an important question, you can publish your paper in top journals.'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Text} is most sarcastic?
+
+Document 1:
+ {'Text': 'Or pretty much anything you put into [Google Correlate](http://www.google.com/trends/correlate), come to that.'}
+Document 2:
+ {'Text': 'Economists are trying their best to analyze causality. If you can identify causality for an important question, you can publish your paper in top journals.'}"

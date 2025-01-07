@@ -1,0 +1,101 @@
+system,user
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Title} is most technical?
+
+Document 1:
+ {'Title': 'What is the meaning of p values and t values in statistical tests?'}
+Document 2:
+ {'Title': 'How to choose between Pearson and Spearman correlation?'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Title} is most technical?
+
+Document 1:
+ {'Title': 'What is the meaning of p values and t values in statistical tests?'}
+Document 2:
+ {'Title': 'How do I get the number of rows of a data.frame in R?'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Title} is most technical?
+
+Document 1:
+ {'Title': 'What is the meaning of p values and t values in statistical tests?'}
+Document 2:
+ {'Title': 'How to interpret and report  eta squared / partial eta squared in statistically significant and non-significant analyses?'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Title} is most technical?
+
+Document 1:
+ {'Title': 'What is the meaning of p values and t values in statistical tests?'}
+Document 2:
+ {'Title': 'How to interpret F- and p-value in ANOVA?'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Title} is most technical?
+
+Document 1:
+ {'Title': 'How to choose between Pearson and Spearman correlation?'}
+Document 2:
+ {'Title': 'How do I get the number of rows of a data.frame in R?'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Title} is most technical?
+
+Document 1:
+ {'Title': 'How to choose between Pearson and Spearman correlation?'}
+Document 2:
+ {'Title': 'How to interpret and report  eta squared / partial eta squared in statistically significant and non-significant analyses?'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Title} is most technical?
+
+Document 1:
+ {'Title': 'How to choose between Pearson and Spearman correlation?'}
+Document 2:
+ {'Title': 'How to interpret F- and p-value in ANOVA?'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Title} is most technical?
+
+Document 1:
+ {'Title': 'How do I get the number of rows of a data.frame in R?'}
+Document 2:
+ {'Title': 'How to interpret and report  eta squared / partial eta squared in statistically significant and non-significant analyses?'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Title} is most technical?
+
+Document 1:
+ {'Title': 'How do I get the number of rows of a data.frame in R?'}
+Document 2:
+ {'Title': 'How to interpret F- and p-value in ANOVA?'}"
+"Your job is to to select and return the most relevant document to the user's question.
+Carefully read the user's question and the two documents provided below.
+Respond only with the label of the document such as ""Document NUMBER"".
+NUMBER must be either 1 or 2, depending on which document is most relevant.
+You must pick a number and cannot say things like ""None"" or ""Neither""","Question: What {Title} is most technical?
+
+Document 1:
+ {'Title': 'How to interpret and report  eta squared / partial eta squared in statistically significant and non-significant analyses?'}
+Document 2:
+ {'Title': 'How to interpret F- and p-value in ANOVA?'}"
